@@ -1,0 +1,51 @@
+:root {
+  --main-color: #ffffff;
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-btn: "Montserrat", sans-serif;
+}
+body {
+  background-color: #202020;
+}
+.hero {
+  background-image: url(img/main-puma.jpeg);
+  background-size: cover;
+  text-align: left;
+  padding: 276px 20px;
+  color: var(--main-color);
+  margin: 0 auto;
+}
+h1,
+h2,
+.text-start {
+  font-family: var(--font-family-main);
+}
+h2 {
+  font-size: 24px;
+}
+h1 {
+  font-size: 63px;
+}
+.text {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 470px;
+}
+.btn {
+  font-family: var(--font-family-btn);
+  font-size: 14px;
+  color: #272142;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 42px;
+  }
+  .hero {
+    padding: 150px 20px 20px;
+  }
+  .text {
+    padding: 20px 20px;
+  }
+  img {
+    width: 80%;
+  }
+}
