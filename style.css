@@ -1,5 +1,5 @@
 :root {
-  --main-color: #ffffff;
+  --main-color: #ffffffe9;
   --font-family-main: "Roboto", sans-serif;
   --font-family-btn: "Montserrat", sans-serif;
 }
@@ -7,6 +7,7 @@ body {
   background-color: #202020;
   background-image: url(img/main-puma.jpeg);
   background-size: cover;
+  color: var(--main-color);
 }
 .hero {
   text-align: left;
@@ -18,7 +19,7 @@ h1,
 h2,
 h3,
 h5,
-.text-start {
+p .text-start {
   font-family: var(--font-family-main);
 }
 h2 {
@@ -42,12 +43,15 @@ h1 {
     font-size: 42px;
   }
   .hero {
-    padding: 150px 20px 20px;
+    padding: 10px 20px 20px;
   }
   .text {
     padding: 20px 20px;
   }
   img {
     width: 80%;
+  }
+  body {
+    background-repeat: no-repeat;
   }
 }
