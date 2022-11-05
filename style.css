@@ -42,22 +42,22 @@ h1 {
   font-size: 14px;
   color: #272142;
 }
-@media (max-width: 375) {
+@media (max-width: 1024px) {
   h1 {
     font-size: 42px;
   }
   .hero,
   .about-hero {
-    padding: 10px 20px 20px;
+    padding: 70px 10px;
   }
-  .text {
-    padding: 20px 20px;
+  .row {
+    padding: 0px !important;
+  }
+  div.about-hero {
+    padding: 80px 20px !important;
   }
   img {
     width: 80%;
-  }
-  body {
-    background-repeat: no-repeat;
   }
 }
 .navigation-links {
@@ -105,9 +105,9 @@ h1 {
 
 .email-link {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 26px;
   text-decoration: none;
 }
 
