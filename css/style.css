@@ -8,13 +8,15 @@ body {
   background-color: #000000;
   color: var(--main-color);
 }
-.hero {
+.hero,
+.about-hero {
+  background-image: url(../img/main-puma.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
   text-align: left;
   padding: 276px 20px;
   color: var(--main-color);
   margin: 0 auto;
-  background-image: url(img/main-puma.jpeg);
-  background-size: contain;
 }
 h1,
 h2,
@@ -59,6 +61,13 @@ h1 {
   img {
     width: 80%;
   }
+  .hero,
+  .about-hero {
+    background-position: center;
+  }
+}
+.nav-link:active {
+  color: #4d34b9 !important;
 }
 .navigation-links {
   display: flex;
@@ -136,6 +145,8 @@ h1 {
   padding: 100px;
   color: var(--main-color);
   margin: 0 auto;
-  background-image: url(img/main-puma.jpeg);
-  background-size: contain;
+}
+.linkSource {
+  font-family: "Rubik Maze", cursive;
+  text-align: center;
 }
