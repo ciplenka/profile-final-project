@@ -202,9 +202,7 @@ footer .work-inquiry-box {
   background: var(--social-color);
   color: var(--primary-color);
 }
-.contact-page {
-  margin: 60px 20rem;
-}
+
 .fa-github {
   color: var(--primary-color);
   font-size: 50px;
