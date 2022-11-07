@@ -69,7 +69,6 @@ h1 {
   }
   footer .mail-link,
   .contact-links a {
-
     position: fixed;
   }
   div.contact-page {
@@ -209,4 +208,8 @@ footer .work-inquiry-box {
 .fa-github {
   color: var(--primary-color);
   font-size: 50px;
+}
+.app-img {
+
+  filter: brightness(50%);
 }
