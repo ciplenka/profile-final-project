@@ -46,7 +46,7 @@ h1 {
   font-size: 14px;
   color: #272142;
 }
-@media (max-width: 375px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 42px;
   }
@@ -70,6 +70,9 @@ h1 {
   footer .mail-link,
   .contact-links a {
     justify-content: left;
+  }
+  div.contact-page {
+    margin: 0;
   }
 }
 .nav-link:active {
